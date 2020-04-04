@@ -14,7 +14,7 @@ namespace TelnetServer
         static async Task Main(string[] args)
         {
             //definiere einen Endpoint für den Listener 
-            IPEndPoint ep = new IPEndPoint(IPAddress.Any, 23000);
+            IPEndPoint ep = new IPEndPoint(IPAddress.Any, 8310);
 
             //initialisiere Netzwerk Listener
             var Listener = new AsyncSocketListener(ep);
